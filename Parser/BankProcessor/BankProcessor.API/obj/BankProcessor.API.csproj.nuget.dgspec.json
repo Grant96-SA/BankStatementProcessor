@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Data\\Testing\\CSharp\\Parser\\BankProcessor\\BankProcessor.API\\BankProcessor.API.csproj": {}
+    "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor.API\\BankProcessor.API.csproj": {}
   },
   "projects": {
-    "C:\\Data\\Testing\\CSharp\\Parser\\BankProcessor\\BankProcessor.API\\BankProcessor.API.csproj": {
+    "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor.API\\BankProcessor.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\Testing\\CSharp\\Parser\\BankProcessor\\BankProcessor.API\\BankProcessor.API.csproj",
+        "projectUniqueName": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor.API\\BankProcessor.API.csproj",
         "projectName": "BankProcessor.API",
-        "projectPath": "C:\\Data\\Testing\\CSharp\\Parser\\BankProcessor\\BankProcessor.API\\BankProcessor.API.csproj",
+        "projectPath": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor.API\\BankProcessor.API.csproj",
         "packagesPath": "C:\\Users\\galbertus\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\Testing\\CSharp\\Parser\\BankProcessor\\BankProcessor.API\\obj\\",
+        "outputPath": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\galbertus\\AppData\\Roaming\\NuGet\\NuGet.Config"
