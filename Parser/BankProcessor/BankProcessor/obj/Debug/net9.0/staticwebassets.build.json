@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "SfaZJT5RSxptG4KNrEQqVoD2+7+E30YK7S77LjLgpw8=",
+  "Source": "BankProcessor",
+  "BasePath": "_content/BankProcessor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

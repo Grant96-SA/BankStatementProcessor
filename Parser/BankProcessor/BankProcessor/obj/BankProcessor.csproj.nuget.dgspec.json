@@ -4,14 +4,14 @@
     "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\BankProcessor.csproj": {}
   },
   "projects": {
-    "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\BankProcessor.csproj": {
+    "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor.API\\BankProcessor.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\BankProcessor.csproj",
-        "projectName": "BankProcessor",
-        "projectPath": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\BankProcessor.csproj",
+        "projectUniqueName": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor.API\\BankProcessor.API.csproj",
+        "projectName": "BankProcessor.API",
+        "projectPath": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor.API\\BankProcessor.API.csproj",
         "packagesPath": "C:\\Users\\galbertus\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\obj\\",
+        "outputPath": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\galbertus\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,9 +44,100 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\BankProcessor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\BankProcessor.csproj",
+        "projectName": "BankProcessor",
+        "projectPath": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\BankProcessor.csproj",
+        "packagesPath": "C:\\Users\\galbertus\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\galbertus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor.API\\BankProcessor.API.csproj": {
+                "projectPath": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor.API\\BankProcessor.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[4.5.1, )"
             }
           },
           "imports": [

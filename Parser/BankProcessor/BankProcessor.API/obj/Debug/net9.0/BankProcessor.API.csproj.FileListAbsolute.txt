@@ -1,0 +1,13 @@
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor.API\bin\Debug\net9.0\BankProcessor.API.deps.json
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor.API\bin\Debug\net9.0\BankProcessor.API.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor.API\bin\Debug\net9.0\BankProcessor.API.pdb
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor.API\obj\Debug\net9.0\BankProcessor.API.csproj.AssemblyReference.cache
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor.API\obj\Debug\net9.0\BankProcessor.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor.API\obj\Debug\net9.0\BankProcessor.API.AssemblyInfoInputs.cache
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor.API\obj\Debug\net9.0\BankProcessor.API.AssemblyInfo.cs
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor.API\obj\Debug\net9.0\BankProcessor.API.csproj.CoreCompileInputs.cache
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor.API\obj\Debug\net9.0\BankProcessor.API.sourcelink.json
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor.API\obj\Debug\net9.0\BankProcessor.API.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor.API\obj\Debug\net9.0\refint\BankProcessor.API.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor.API\obj\Debug\net9.0\BankProcessor.API.pdb
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor.API\obj\Debug\net9.0\ref\BankProcessor.API.dll
