@@ -1,5 +1,6 @@
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\appsettings.Development.json
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\appsettings.json
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\BankProcessor.staticwebassets.runtime.json
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\BankProcessor.staticwebassets.endpoints.json
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\BankProcessor.exe
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\BankProcessor.deps.json
@@ -7,6 +8,18 @@ C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\BankProcessor.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\BankProcessor.pdb
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Humanizer.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\itext.barcodes.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\itext.bouncy-castle-connector.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\itext.forms.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\itext.io.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\itext.kernel.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\itext.layout.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\itext.pdfa.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\itext.pdfua.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\itext.sign.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\itext.styledxmlparser.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\itext.svg.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\itext.commons.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Microsoft.Build.Locator.dll
@@ -17,6 +30,7 @@ C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
@@ -25,6 +39,7 @@ C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Microsoft.OpenApi.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\SQLitePCLRaw.core.dll
 C:\Data\Testing\CSharp\BankStatementProcessor\Parser\BankProcessor\BankProcessor\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll

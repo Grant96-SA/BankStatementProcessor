@@ -1,17 +1,23 @@
 using Microsoft.AspNetCore.Mvc;
 using BankProcessor.API.Statement;
 using BankProcessor.Models;
+using BankProcessor.Services;
+using System.ComponentModel;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace BankProcessor.Controllers
 {
     [ApiController]
     public class StatementController : ControllerBase
     {
-        private readonly StatementContext? _dbContext;
+        private readonly StatementContext _dbContext;
+        private readonly StatementProcessingService _processingService;
 
-        public StatementController(StatementContext dbContext)
+        public StatementController(StatementContext dbContext, StatementProcessingService processingService)
         {
-            _dbContext = dbContext;
+            _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
+            _processingService = processingService ?? throw new ArgumentNullException(nameof(processingService));
         }
 
         [HttpPost("/statement")]
@@ -30,9 +36,8 @@ namespace BankProcessor.Controllers
             }
 
             // Check if file is pdf
-            //var extension = Path.GetExtension(file.FileName).ToLowerInvariant();
-            //if (string.IsNullOrEmpty(extension) || (extension != ".pdf"))
-            if (file.ContentType != "application/pdf")
+            var extension = Path.GetExtension(file.FileName).ToLowerInvariant();
+            if (string.IsNullOrEmpty(extension) || (extension != ".pdf"))
             {
                 return BadRequest(new
                 {
@@ -47,25 +52,32 @@ namespace BankProcessor.Controllers
                 Directory.CreateDirectory(folderPath);
             }
 
-            var newFileName = $"{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
-            var filePath = Path.Combine(folderPath, newFileName);
+            string newFileName = Guid.NewGuid() + ".pdf";
+            string filePath = Path.Combine(folderPath, newFileName);
 
-            using (var stream = new FileStream(filePath, FileMode.Create))
+            try
             {
-                await file.CopyToAsync(stream);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+
+                // Queue the file path for processing by background service
+                _processingService.QueueFile(filePath);
             }
 
-            // Save metadata to the database
-            var fileRecord = new FileRecord
+            catch (Exception ex)
             {
-                FileName = file.FileName,
-                FilePath = filePath
-            };
+                return StatusCode(500, new
+                {
+                    uuid = (string?)null,
+                    message = "Error processing statement: " + ex.Message
+                });
+            }
 
-            _dbContext.Files.Add(fileRecord);
-            await _dbContext.SaveChangesAsync();
-
-            return Ok(new { uuid = fileRecord.Id, message = "Success" });
+            // Return the result
+            return Ok(new { uuid = Guid.NewGuid(), message = "Success" });
         }
     }
 }

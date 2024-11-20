@@ -1,23 +1,51 @@
 using Microsoft.EntityFrameworkCore;
-using BankProcessor.Controllers;
+using BankProcessor.Models;
 
 namespace BankProcessor.Models
 {
     public class StatementContext : DbContext
     {
-        public DbSet<FileRecord>? Files { get; set; }
-        public StatementContext(DbContextOptions options) : base(options) { }
+        public DbSet<Account> _Accounts { get; set; }
+        public DbSet<Transaction> _Transactions {get; set;}
+
+        public StatementContext(DbContextOptions<StatementContext> options) : base(options) 
+        {
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<FileRecord>(entity =>
+            modelBuilder.Entity<Account>(entity =>
             {
-                entity.HasKey(e => e.Id);
-                entity.Property(e => e.FileName).IsRequired().HasMaxLength(50);
-                entity.Property(e => e.FilePath).IsRequired();
-                entity.Property(e => e.UploadedAt).HasDefaultValueSql("CURRENT_TIMESTAMP");
+                entity.HasKey(a => a.Uuid);
+                entity.Property(a => a.Name).IsRequired().HasMaxLength(50);
+                entity.Property(a => a.AccountNumber).IsRequired().HasMaxLength(50);
+                entity.Property(a => a.Balance).HasColumnType("decimal(18,2)");
+                entity.Property(a => a.OpeningBalance).HasColumnType("decimal(18,2)");
+                entity.Property(a => a.ClosingBalance).HasColumnType("decimal(18,2)");
+                entity.Property(a => a.FromDate).HasColumnType("date");
+                entity.Property(a => a.ToDate).HasColumnType("date");
+                entity.Property(a => a.StatementDate).HasColumnType("date");
+                entity.Property(a => a.TransactionCount).HasDefaultValue(0);
+            });
+
+            modelBuilder.Entity<Transaction>(entity =>
+            {
+                entity.HasKey(t => t.TransactionId); // Primary key 
+                entity.Property(t => t.AccountNumber).IsRequired();
+                entity.Property(t => t.Date).HasColumnType("date");
+                entity.Property(t => t.Description).HasMaxLength(150);
+                entity.Property(t => t.Amount).HasColumnType("decimal(18,2)");
+                entity.Property(t => t.Balance).HasColumnType("decimal(18,2)");
+                entity.Property(t => t.Type).IsRequired().HasMaxLength(20);
+
+                // Account linkage
+                entity.HasOne(t => t.Account)
+                      .WithMany(a => a.Transactions)
+                      .HasForeignKey(t => t.AccountNumber)
+                      .HasPrincipalKey(a => a.AccountNumber)
+                      .OnDelete(DeleteBehavior.Cascade); 
             });
         }
     }

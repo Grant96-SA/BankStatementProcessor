@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\09a17ac6-c516-45fe-8178-f0b521fa4240.pdf",
+      "PackagePath": "staticwebassets\\uploads\\09a17ac6-c516-45fe-8178-f0b521fa4240.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\34b0f57d-cae9-496f-b413-ac51b85ceddc.pdf",
+      "PackagePath": "staticwebassets\\uploads\\34b0f57d-cae9-496f-b413-ac51b85ceddc.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\425d315e-06e0-4832-aa7e-528766a43146.pdf",
+      "PackagePath": "staticwebassets\\uploads\\425d315e-06e0-4832-aa7e-528766a43146.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\4d35f7ba-ec5a-43d9-a1f5-bf0f1394bd48.pdf",
+      "PackagePath": "staticwebassets\\uploads\\4d35f7ba-ec5a-43d9-a1f5-bf0f1394bd48.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\78ea0745-1c34-4f93-96e6-5f1a56ddb6ff.pdf",
+      "PackagePath": "staticwebassets\\uploads\\78ea0745-1c34-4f93-96e6-5f1a56ddb6ff.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\792c9176-245a-49f0-a2f6-7e208caaa6b7.pdf",
+      "PackagePath": "staticwebassets\\uploads\\792c9176-245a-49f0-a2f6-7e208caaa6b7.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\7f58e5b3-a5b4-4e62-b38d-b447bb86a60d.pdf",
+      "PackagePath": "staticwebassets\\uploads\\7f58e5b3-a5b4-4e62-b38d-b447bb86a60d.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\9b98a51b-f1d8-40a2-957a-1e620086b8be.pdf",
+      "PackagePath": "staticwebassets\\uploads\\9b98a51b-f1d8-40a2-957a-1e620086b8be.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\a914320a-d9bc-4dac-ae49-40b022fb0a02.pdf",
+      "PackagePath": "staticwebassets\\uploads\\a914320a-d9bc-4dac-ae49-40b022fb0a02.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\b9edfd21-08cd-4c56-b917-7ce3e8295733.pdf",
+      "PackagePath": "staticwebassets\\uploads\\b9edfd21-08cd-4c56-b917-7ce3e8295733.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\cdc04d4e-61d4-49e5-b43c-8779659d5a3b.pdf",
+      "PackagePath": "staticwebassets\\uploads\\cdc04d4e-61d4-49e5-b43c-8779659d5a3b.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\d9bfe76a-4f13-4130-8939-31cf7b694c9c.pdf",
+      "PackagePath": "staticwebassets\\uploads\\d9bfe76a-4f13-4130-8939-31cf7b694c9c.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\e4fe7bb6-4b6e-4494-ba61-475cb17afe5a.pdf",
+      "PackagePath": "staticwebassets\\uploads\\e4fe7bb6-4b6e-4494-ba61-475cb17afe5a.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\f004eed6-2a7b-4c0c-94b5-50a1fdf75dd5.pdf",
+      "PackagePath": "staticwebassets\\uploads\\f004eed6-2a7b-4c0c-94b5-50a1fdf75dd5.pdf"
+    },
+    {
+      "Id": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\f97944f9-69b5-4e1e-9eaa-75f558281fab.pdf",
+      "PackagePath": "staticwebassets\\uploads\\f97944f9-69b5-4e1e-9eaa-75f558281fab.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BankProcessor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BankProcessor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.BankProcessor.props",
+      "PackagePath": "build\\BankProcessor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.BankProcessor.props",
+      "PackagePath": "buildMultiTargeting\\BankProcessor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.BankProcessor.props",
+      "PackagePath": "buildTransitive\\BankProcessor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

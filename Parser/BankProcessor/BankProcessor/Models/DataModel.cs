@@ -2,11 +2,52 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BankProcessor.Models
 {
-    public class FileRecord
+    public class Account
     {
-        public Guid Id { get; set; } = Guid.NewGuid(); // Auto-generate UUID
-        public string FileName { get; set; } = string.Empty; // Original file name
-        public string FilePath { get; set; } = string.Empty; // Path to local file
-        public DateTime UploadedAt { get; set; } = DateTime.UtcNow; // Timestamp
+        public Guid Uuid { get; set; } = Guid.NewGuid();
+
+        [Required, MaxLength(50)]
+        public string Name { get; set; } = string.Empty;
+
+        public string Address { get; set; } = string.Empty;
+
+        [Required, MaxLength(50)]
+        public string AccountNumber { get; set; } = string.Empty;
+
+        public decimal Balance { get; set; }
+        public decimal OpeningBalance { get; set; }
+        public decimal ClosingBalance { get; set; }
+
+        public DateOnly FromDate { get; set; }
+        public DateOnly ToDate { get; set; }
+        public DateOnly StatementDate { get; set; }
+
+        public int TransactionCount { get; set; } = 0; // Default is 0
+
+        // Navigation property for the relationship
+        public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
+    }
+
+    public class Transaction
+    {
+        [Key]
+        public int TransactionId { get; set; } // Auto-increment primary key
+
+        [Required]
+        public string AccountNumber { get; set; } = string.Empty; // Link to Account
+
+        public Guid Uuid { get; set; } = Guid.NewGuid(); // Unique identifier for the transaction
+
+        public DateOnly Date { get; set; }
+        public string Description { get; set; } = string.Empty;
+
+        public decimal Amount { get; set; }
+        public decimal Balance { get; set; }
+
+        [Required]
+        public string Type { get; set; } = string.Empty; // "Credit" or "Debit"
+
+        // Navigation property for the relationship
+        public Account? Account { get; set; }
     }
 }
