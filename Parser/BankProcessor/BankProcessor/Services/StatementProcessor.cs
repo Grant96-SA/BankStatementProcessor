@@ -53,6 +53,11 @@ namespace BankProcessor.Services
                             var dbContext = scope.ServiceProvider.GetRequiredService<StatementContext>();
                             var statementParser = scope.ServiceProvider.GetRequiredService<StatementParser>();
 
+                            if (dbContext == null)
+                            {
+                                throw new ArgumentNullException(nameof(dbContext));
+                            }
+
                             // Use the statementParser to process the file
                             var account = statementParser.AccountParser(filePath);
 
@@ -76,6 +81,7 @@ namespace BankProcessor.Services
                                 existingAccount.ToDate = account.ToDate;
                                 existingAccount.OpeningBalance = account.OpeningBalance;
                                 existingAccount.ClosingBalance = account.ClosingBalance;
+                                existingAccount.Balance = account.ClosingBalance;
                                 existingAccount.TransactionCount = account.TransactionCount;
 
                                 // Add only new transactions

@@ -10,6 +10,8 @@ namespace BankProcessor.Models
 
         public StatementContext(DbContextOptions<StatementContext> options) : base(options) 
         {
+            // _Accounts = Accounts ?? throw new ArgumentNullException(nameof(Accounts));
+            // _Transactions = Transactions ?? throw new ArgumentNullException(nameof(Transactions));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -33,7 +35,7 @@ namespace BankProcessor.Models
             modelBuilder.Entity<Transaction>(entity =>
             {
                 entity.HasKey(t => t.TransactionId); // Primary key 
-                entity.Property(t => t.AccountNumber).IsRequired();
+                entity.Property(t => t.AccountUuid).IsRequired();
                 entity.Property(t => t.Date).HasColumnType("date");
                 entity.Property(t => t.Description).HasMaxLength(150);
                 entity.Property(t => t.Amount).HasColumnType("decimal(18,2)");
@@ -43,8 +45,8 @@ namespace BankProcessor.Models
                 // Account linkage
                 entity.HasOne(t => t.Account)
                       .WithMany(a => a.Transactions)
-                      .HasForeignKey(t => t.AccountNumber)
-                      .HasPrincipalKey(a => a.AccountNumber)
+                      .HasForeignKey(t => t.AccountUuid)
+                      .HasPrincipalKey(a => a.Uuid)
                       .OnDelete(DeleteBehavior.Cascade); 
             });
         }

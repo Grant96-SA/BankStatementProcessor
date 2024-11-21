@@ -3,5 +3,5 @@ using Microsoft.AspNetCore.Http;
 
 namespace BankProcessor.API.Transaction
 {
-    public record GetTransactionsRequest(string Uuid);
+    public record GetTransactionsRequest(Guid Uuid);
 }

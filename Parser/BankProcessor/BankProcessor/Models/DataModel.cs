@@ -34,9 +34,7 @@ namespace BankProcessor.Models
         public int TransactionId { get; set; } // Auto-increment primary key
 
         [Required]
-        public string AccountNumber { get; set; } = string.Empty; // Link to Account
-
-        public Guid Uuid { get; set; } = Guid.NewGuid(); // Unique identifier for the transaction
+        public Guid AccountUuid { get; set; } // Foreign key link to Statement
 
         public DateOnly Date { get; set; }
         public string Description { get; set; } = string.Empty;
@@ -45,7 +43,7 @@ namespace BankProcessor.Models
         public decimal Balance { get; set; }
 
         [Required]
-        public string Type { get; set; } = string.Empty; // "Credit" or "Debit"
+        public string Type { get; set; } = string.Empty;
 
         // Navigation property for the relationship
         public Account? Account { get; set; }

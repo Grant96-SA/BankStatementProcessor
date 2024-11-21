@@ -15,6 +15,7 @@ builder.Services.AddDbContext<StatementContext>(options => options.UseSqlite(bui
 builder.Services.AddScoped<StatementParser>();
 builder.Services.AddSingleton<StatementProcessingService>();
 builder.Services.AddHostedService<StatementProcessingService>(provider => provider.GetService<StatementProcessingService>());
+//builder.Services.AddHostedService<StatementProcessingService>();
 
 var app = builder.Build();
 {

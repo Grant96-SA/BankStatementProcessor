@@ -30,7 +30,6 @@ namespace BankProcessor.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK__Accounts", x => x.Uuid);
-                    table.UniqueConstraint("AK__Accounts_AccountNumber", x => x.AccountNumber);
                 });
 
             migrationBuilder.CreateTable(
@@ -39,8 +38,7 @@ namespace BankProcessor.Migrations
                 {
                     TransactionId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    AccountNumber = table.Column<string>(type: "TEXT", nullable: false),
-                    Uuid = table.Column<Guid>(type: "TEXT", nullable: false),
+                    AccountUuid = table.Column<Guid>(type: "TEXT", nullable: false),
                     Date = table.Column<DateOnly>(type: "date", nullable: false),
                     Description = table.Column<string>(type: "TEXT", maxLength: 150, nullable: false),
                     Amount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
@@ -51,17 +49,17 @@ namespace BankProcessor.Migrations
                 {
                     table.PrimaryKey("PK__Transactions", x => x.TransactionId);
                     table.ForeignKey(
-                        name: "FK__Transactions__Accounts_AccountNumber",
-                        column: x => x.AccountNumber,
+                        name: "FK__Transactions__Accounts_AccountUuid",
+                        column: x => x.AccountUuid,
                         principalTable: "_Accounts",
-                        principalColumn: "AccountNumber",
+                        principalColumn: "Uuid",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX__Transactions_AccountNumber",
+                name: "IX__Transactions_AccountUuid",
                 table: "_Transactions",
-                column: "AccountNumber");
+                column: "AccountUuid");
         }
 
         /// <inheritdoc />

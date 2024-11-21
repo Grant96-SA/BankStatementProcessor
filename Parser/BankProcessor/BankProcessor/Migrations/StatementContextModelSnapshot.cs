@@ -71,8 +71,7 @@ namespace BankProcessor.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("AccountNumber")
-                        .IsRequired()
+                    b.Property<Guid>("AccountUuid")
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("Amount")
@@ -94,12 +93,9 @@ namespace BankProcessor.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("TEXT");
 
-                    b.Property<Guid>("Uuid")
-                        .HasColumnType("TEXT");
-
                     b.HasKey("TransactionId");
 
-                    b.HasIndex("AccountNumber");
+                    b.HasIndex("AccountUuid");
 
                     b.ToTable("_Transactions");
                 });
@@ -108,8 +104,7 @@ namespace BankProcessor.Migrations
                 {
                     b.HasOne("BankProcessor.Models.Account", "Account")
                         .WithMany("Transactions")
-                        .HasForeignKey("AccountNumber")
-                        .HasPrincipalKey("AccountNumber")
+                        .HasForeignKey("AccountUuid")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

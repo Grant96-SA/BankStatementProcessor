@@ -2,9 +2,9 @@ namespace BankProcessor.API.Account
 {
     public record GetAccountResponse
     (
-        string Uuid,                // Statement UUID
+        Guid Uuid,                // Statement UUID
         string Message,             // Response message
-        AccountData Data            // Account details
+        AccountData? Data            // Account details
     );
 
     public record AccountData
@@ -16,14 +16,14 @@ namespace BankProcessor.API.Account
 
     public record AccountDetails
     (
-        string Uuid,                // Account UUID
+        Guid Uuid,                // Account UUID
         string Number,              // Account number
         decimal Balance,            // Current balance
         decimal OpeningBalance,     // Opening balance
         decimal ClosingBalance,     // Closing balance
-        DateTime FromDate,          // Statement start date
-        DateTime ToDate,            // Statement end date
+        DateOnly FromDate,          // Statement start date
+        DateOnly ToDate,            // Statement end date
         int TransactionCount,       // Number of transactions
-        DateTime StatementDate      // Statement generation date
+        DateOnly StatementDate      // Statement generation date
     );
 }
