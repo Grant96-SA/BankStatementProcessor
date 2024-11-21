@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NpCdajt/OZEbtcjJo8bIfT4Yrh3mwV0DTBYBQ+vsGXs=",
+  "Hash": "fvh76fkGwx1q5qvYaaBI6voxB1fRixyU0P96eVcQud0=",
   "Source": "BankProcessor",
   "BasePath": "_content/BankProcessor",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\5a7d0daf-2930-4111-b762-b3e17112504d.pdf"
+    },
+    {
+      "Identity": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\9a09ea72-8782-47c5-96d8-47ad32c327ad.pdf",
+      "SourceId": "BankProcessor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\",
+      "BasePath": "_content/BankProcessor",
+      "RelativePath": "uploads/9a09ea72-8782-47c5-96d8-47ad32c327ad#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kucurr07ga",
+      "Integrity": "jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\9a09ea72-8782-47c5-96d8-47ad32c327ad.pdf"
     },
     {
       "Identity": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\ab02a896-945c-44cc-82a4-796782b4a14e.pdf",
@@ -284,6 +305,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-DtaqHSjBhVIme05XoEOsPfUWnaQvG7oSOSqVGtMEAf0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9a09ea72-8782-47c5-96d8-47ad32c327ad.kucurr07ga.pdf",
+      "AssetFile": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\9a09ea72-8782-47c5-96d8-47ad32c327ad.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 08:29:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kucurr07ga"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/9a09ea72-8782-47c5-96d8-47ad32c327ad.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9a09ea72-8782-47c5-96d8-47ad32c327ad.pdf",
+      "AssetFile": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\9a09ea72-8782-47c5-96d8-47ad32c327ad.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 08:29:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8="
         }
       ]
     },

@@ -2,8 +2,8 @@ POST http://localhost:5119/statement
 Content-Type: multipart/form-data; boundary=boundary
 
 --boundary
-Content-Disposition: form-data; name="payload.Statement"; filename="fundingbank_3.pdf"
+Content-Disposition: form-data; name="payload.Statement"; filename="fundingbank_1.pdf"
 Content-Type: application/pdf
 
-< ./data/fundingbank_3.pdf
+< ./data/fundingbank_1.pdf
 --boundary--

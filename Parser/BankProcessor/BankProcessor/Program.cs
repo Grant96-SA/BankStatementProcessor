@@ -17,7 +17,16 @@ builder.Services.AddDbContext<StatementContext>(options => options.UseSqlite(bui
 // Register the StatementProcessor service
 builder.Services.AddScoped<StatementParser>();
 builder.Services.AddSingleton<StatementProcessingService>();
-builder.Services.AddHostedService<StatementProcessingService>(provider => provider.GetService<StatementProcessingService>());
+builder.Services.AddHostedService(provider =>
+{
+    var service = provider.GetService<StatementProcessingService>();
+    if (service == null)
+    {
+        throw new InvalidOperationException("Failed to resolve StatementProcessingService.");
+    }
+    return service;
+});
+
 //builder.Services.AddHostedService<StatementProcessingService>();
 
 var app = builder.Build();
