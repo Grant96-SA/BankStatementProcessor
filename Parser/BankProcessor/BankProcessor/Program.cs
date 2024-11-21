@@ -6,6 +6,9 @@ using Microsoft.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// log filter
+builder.Logging.AddFilter("Microsoft.EntityFrameworkCore.Database.Command", LogLevel.Warning);
+
 // Add services to the container.
 builder.Services.AddControllers();
 

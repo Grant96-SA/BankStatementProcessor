@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q0yeLRQu8/A9t0KTnVoxAKg1SC4M29skRhkF/V8SExE=",
+  "Hash": "NpCdajt/OZEbtcjJo8bIfT4Yrh3mwV0DTBYBQ+vsGXs=",
   "Source": "BankProcessor",
   "BasePath": "_content/BankProcessor",
   "Mode": "Default",
@@ -36,6 +36,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\2ba95520-3a9c-486c-96a5-4fa1c3632ff0.pdf"
+    },
+    {
+      "Identity": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\5a7d0daf-2930-4111-b762-b3e17112504d.pdf",
+      "SourceId": "BankProcessor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\",
+      "BasePath": "_content/BankProcessor",
+      "RelativePath": "uploads/5a7d0daf-2930-4111-b762-b3e17112504d#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yr2wgw3tf7",
+      "Integrity": "DtaqHSjBhVIme05XoEOsPfUWnaQvG7oSOSqVGtMEAf0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5a7d0daf-2930-4111-b762-b3e17112504d.pdf"
+    },
+    {
+      "Identity": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\ab02a896-945c-44cc-82a4-796782b4a14e.pdf",
+      "SourceId": "BankProcessor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\",
+      "BasePath": "_content/BankProcessor",
+      "RelativePath": "uploads/ab02a896-945c-44cc-82a4-796782b4a14e#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kucurr07ga",
+      "Integrity": "jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ab02a896-945c-44cc-82a4-796782b4a14e.pdf"
+    },
+    {
+      "Identity": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\c6bfb549-d91c-404b-b0de-4e3c483eb86c.pdf",
+      "SourceId": "BankProcessor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\",
+      "BasePath": "_content/BankProcessor",
+      "RelativePath": "uploads/c6bfb549-d91c-404b-b0de-4e3c483eb86c#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kucurr07ga",
+      "Integrity": "jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\c6bfb549-d91c-404b-b0de-4e3c483eb86c.pdf"
     },
     {
       "Identity": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\dab38a1e-ff80-40dc-82c2-0659a0689f01.pdf",
@@ -139,6 +202,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-XGvcxM+mzHggnZmWmQj3EN8dagyFrzU8mFUWhPdTYpc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5a7d0daf-2930-4111-b762-b3e17112504d.pdf",
+      "AssetFile": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\5a7d0daf-2930-4111-b762-b3e17112504d.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DtaqHSjBhVIme05XoEOsPfUWnaQvG7oSOSqVGtMEAf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 08:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DtaqHSjBhVIme05XoEOsPfUWnaQvG7oSOSqVGtMEAf0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5a7d0daf-2930-4111-b762-b3e17112504d.yr2wgw3tf7.pdf",
+      "AssetFile": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\5a7d0daf-2930-4111-b762-b3e17112504d.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DtaqHSjBhVIme05XoEOsPfUWnaQvG7oSOSqVGtMEAf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 08:25:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yr2wgw3tf7"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5a7d0daf-2930-4111-b762-b3e17112504d.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DtaqHSjBhVIme05XoEOsPfUWnaQvG7oSOSqVGtMEAf0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ab02a896-945c-44cc-82a4-796782b4a14e.kucurr07ga.pdf",
+      "AssetFile": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\ab02a896-945c-44cc-82a4-796782b4a14e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 08:28:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kucurr07ga"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/ab02a896-945c-44cc-82a4-796782b4a14e.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ab02a896-945c-44cc-82a4-796782b4a14e.pdf",
+      "AssetFile": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\ab02a896-945c-44cc-82a4-796782b4a14e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 08:28:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c6bfb549-d91c-404b-b0de-4e3c483eb86c.kucurr07ga.pdf",
+      "AssetFile": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\c6bfb549-d91c-404b-b0de-4e3c483eb86c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 08:27:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kucurr07ga"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/c6bfb549-d91c-404b-b0de-4e3c483eb86c.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c6bfb549-d91c-404b-b0de-4e3c483eb86c.pdf",
+      "AssetFile": "C:\\Data\\Testing\\CSharp\\BankStatementProcessor\\Parser\\BankProcessor\\BankProcessor\\wwwroot\\uploads\\c6bfb549-d91c-404b-b0de-4e3c483eb86c.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 08:27:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8="
         }
       ]
     },

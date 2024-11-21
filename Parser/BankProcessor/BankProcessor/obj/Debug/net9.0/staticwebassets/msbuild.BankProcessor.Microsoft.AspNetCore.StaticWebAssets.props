@@ -18,6 +18,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2ba95520-3a9c-486c-96a5-4fa1c3632ff0.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5a7d0daf-2930-4111-b762-b3e17112504d.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BankProcessor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BankProcessor</BasePath>
+      <RelativePath>uploads/5a7d0daf-2930-4111-b762-b3e17112504d.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yr2wgw3tf7</Fingerprint>
+      <Integrity>DtaqHSjBhVIme05XoEOsPfUWnaQvG7oSOSqVGtMEAf0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5a7d0daf-2930-4111-b762-b3e17112504d.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ab02a896-945c-44cc-82a4-796782b4a14e.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BankProcessor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BankProcessor</BasePath>
+      <RelativePath>uploads/ab02a896-945c-44cc-82a4-796782b4a14e.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kucurr07ga</Fingerprint>
+      <Integrity>jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ab02a896-945c-44cc-82a4-796782b4a14e.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c6bfb549-d91c-404b-b0de-4e3c483eb86c.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BankProcessor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BankProcessor</BasePath>
+      <RelativePath>uploads/c6bfb549-d91c-404b-b0de-4e3c483eb86c.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kucurr07ga</Fingerprint>
+      <Integrity>jKME0Iz7N4ZxZ6DZamsWwxkU+OMsaug+qSQVB+3hOP8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c6bfb549-d91c-404b-b0de-4e3c483eb86c.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dab38a1e-ff80-40dc-82c2-0659a0689f01.pdf'))">
       <SourceType>Package</SourceType>
       <SourceId>BankProcessor</SourceId>
